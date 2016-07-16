@@ -7,7 +7,7 @@
         jumboMode="true"
         optimize="false"
         revision="23.0.3"
-        sha1="b8213bf60410d56245759187d21ae3f820e950f3">
+        sha1="b9ebef89191f2ef8e1465ff57b851400dc297c94">
         <dex dex="E:\IDE\AndroidStudio\XYZReader\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_c1228bf777b4baf034eddc2a7af2be477d52e8d8\classes.dex" />
     </item>
     <item
@@ -129,11 +129,20 @@
     </item>
     <item
         is-multidex="true"
+        jar="E:\IDE\AndroidStudio\XYZReader\XYZReader\build\intermediates\exploded-aar\com.android.support\design\23.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="23.0.3"
+        sha1="72961d8b453b46e277702f18de9d210bc019e36e">
+        <dex dex="E:\IDE\AndroidStudio\XYZReader\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-23.2.1_7cc988456edc256294cfb158ae1722e4e6796122\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="E:\IDE\AndroidStudio\XYZReader\XYZReader\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
         jumboMode="true"
         optimize="false"
         revision="23.0.3"
-        sha1="fda7e35b8cb246d883771483ac6175380443a230">
+        sha1="5a7fe0ca31c65b7cf9f65b876a91bd7658a24d48">
         <dex dex="E:\IDE\AndroidStudio\XYZReader\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_e1e0c80e8e59d3a3f60b811485de5ac19966ac1e\classes.dex" />
     </item>
     <item

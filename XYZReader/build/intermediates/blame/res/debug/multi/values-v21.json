@@ -1675,6 +1675,27 @@
                         "endOffset": 17664
                     }
                 }
+            },
+            {
+                "to": {
+                    "startLine": 242,
+                    "startColumn": 4,
+                    "startOffset": 17669,
+                    "endLine": 246,
+                    "endColumn": 12,
+                    "endOffset": 17975
+                },
+                "from": {
+                    "file": "E:\\IDE\\AndroidStudio\\XYZReader\\XYZReader\\src\\main\\res\\values-v21\\styles.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 59,
+                        "endLine": 7,
+                        "endColumn": 12,
+                        "endOffset": 369
+                    }
+                }
             }
         ]
     }

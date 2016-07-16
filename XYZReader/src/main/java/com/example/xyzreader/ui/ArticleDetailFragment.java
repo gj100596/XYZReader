@@ -2,6 +2,7 @@ package com.example.xyzreader.ui;
 
 import android.app.Fragment;
 import android.app.LoaderManager;
+import android.content.Context;
 import android.content.Intent;
 import android.content.Loader;
 import android.database.Cursor;
@@ -54,6 +55,8 @@ public class ArticleDetailFragment extends Fragment implements
     private int mScrollY;
     private boolean mIsCard = false;
     private int mStatusBarFullOpacityBottom;
+
+    private Typeface font;
 
     /**
      * Mandatory empty constructor for the fragment manager to instantiate the
@@ -123,8 +126,8 @@ public class ArticleDetailFragment extends Fragment implements
             }
         });
 
-        mPhotoView = (ImageView) mRootView.findViewById(R.id.photo);
-        mPhotoContainerView = mRootView.findViewById(R.id.photo_container);
+       // mPhotoView = (ImageView) mRootView.findViewById(R.id.photo);
+        //mPhotoContainerView = mRootView.findViewById(R.id.photo_container);
 
         mStatusBarColorDrawable = new ColorDrawable(0);
 
@@ -181,7 +184,7 @@ public class ArticleDetailFragment extends Fragment implements
         TextView bylineView = (TextView) mRootView.findViewById(R.id.article_byline);
         bylineView.setMovementMethod(new LinkMovementMethod());
         TextView bodyView = (TextView) mRootView.findViewById(R.id.article_body);
-        bodyView.setTypeface(Typeface.createFromAsset(getResources().getAssets(), "Rosario-Regular.ttf"));
+        bodyView.setTypeface(font);
 
         if (mCursor != null) {
             mRootView.setAlpha(0);
@@ -223,6 +226,12 @@ public class ArticleDetailFragment extends Fragment implements
             bylineView.setText("N/A" );
             bodyView.setText("N/A");
         }
+    }
+
+    @Override
+    public void onAttach(Context context) {
+        super.onAttach(context);
+        font = Typeface.createFromAsset(getResources().getAssets(), "Rosario-Regular.ttf");
     }
 
     @Override
