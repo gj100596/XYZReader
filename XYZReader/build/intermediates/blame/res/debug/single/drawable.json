@@ -72,6 +72,10 @@
         "source": "E:\\IDE\\AndroidStudio\\XYZReader\\XYZReader\\src\\main\\res\\drawable\\white_selectable_item_background_circle.xml"
     },
     {
+        "merged": "E:\\IDE\\AndroidStudio\\XYZReader\\XYZReader\\build\\intermediates\\res\\merged\\debug\\drawable\\mid_layer.xml",
+        "source": "E:\\IDE\\AndroidStudio\\XYZReader\\XYZReader\\src\\main\\res\\drawable\\mid_layer.xml"
+    },
+    {
         "merged": "E:\\IDE\\AndroidStudio\\XYZReader\\XYZReader\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_text_cursor_material.xml",
         "source": "E:\\IDE\\AndroidStudio\\XYZReader\\XYZReader\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable\\abc_text_cursor_material.xml"
     },

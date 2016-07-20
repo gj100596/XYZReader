@@ -7,7 +7,7 @@
         jumboMode="true"
         optimize="false"
         revision="23.0.3"
-        sha1="b9ebef89191f2ef8e1465ff57b851400dc297c94">
+        sha1="79ec2505cacac9fae5beece0bd1a93d7fb692acb">
         <dex dex="E:\IDE\AndroidStudio\XYZReader\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_c1228bf777b4baf034eddc2a7af2be477d52e8d8\classes.dex" />
     </item>
     <item
@@ -45,6 +45,15 @@
         revision="23.0.3"
         sha1="e4d0cbb0b999604b349062f0214a0a228a7fd151">
         <dex dex="E:\IDE\AndroidStudio\XYZReader\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-23.2.1_d99b581c0bd1dc6b61a5d7db7d7f0db223ccf7c8\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Gaurav\.gradle\caches\modules-2\files-2.1\com.squareup.picasso\picasso\2.5.2\7446d06ec8d4f7ffcc53f1da37c95f200dcb9387\picasso-2.5.2.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="23.0.3"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="E:\IDE\AndroidStudio\XYZReader\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\10\picasso-2.5.2_5a64e20a1ffb35eb568b46c70cc00bfb187e1972\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -142,7 +151,7 @@
         jumboMode="true"
         optimize="false"
         revision="23.0.3"
-        sha1="5a7fe0ca31c65b7cf9f65b876a91bd7658a24d48">
+        sha1="0c9838e718a31792ff89a4c43c041602ea9efde4">
         <dex dex="E:\IDE\AndroidStudio\XYZReader\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_e1e0c80e8e59d3a3f60b811485de5ac19966ac1e\classes.dex" />
     </item>
     <item
